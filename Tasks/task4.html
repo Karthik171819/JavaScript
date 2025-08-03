@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="text">Name</h1>
+    <button onclick="clicke(event)">john</button>
+    <button onclick="clicke(event)">Hari</button>
+    <button onclick="clicke(event)">Praveen</button>
+ 
+    <script>
+        //today we are goint to explore which is event object
+        var h1=document.getElementById("text")
+
+        function clicke(event){
+            h1.textContent=event.target.textContent
+
+            
+        }
+    </script>
+    
+</body>
+</html>
