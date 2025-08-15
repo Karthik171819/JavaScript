@@ -6,4 +6,4 @@ const profile = {
     posts: 195,
 };
 
-console.log(profile)
+console.log(profile);
