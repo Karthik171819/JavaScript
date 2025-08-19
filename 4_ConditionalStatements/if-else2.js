@@ -1,4 +1,4 @@
-let num = 2;
+let num = 7;
 
 if(num%2 === 0){
     console.log(num ,"Is Even Number");
