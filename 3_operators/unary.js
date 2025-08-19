@@ -14,6 +14,6 @@ console.log("++a = ", a);
 --a
 console.log("--a = ", --a);
 
-//Post - Decrement
-console.log("a++ =", a++);
-console.log(a)
+//Post - decrement
+console.log("a++ =", a--);
+console.log(a);
