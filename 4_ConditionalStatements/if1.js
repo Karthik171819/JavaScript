@@ -6,6 +6,6 @@ if(mode === "dark"){
 }
 
 if(mode === "light"){
-    color="white"
+    color="white";
 }
 console.log(color);
