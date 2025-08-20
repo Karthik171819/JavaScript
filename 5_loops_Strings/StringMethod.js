@@ -27,3 +27,9 @@ console.log(str.slice(3, 8));
     let str = "hello";
     console.log(str.replace("h", "m"));
 }
+
+//Accessing the char index
+{
+    let str = "hi how are you";
+    console.log(str.charAt(1));
+}
