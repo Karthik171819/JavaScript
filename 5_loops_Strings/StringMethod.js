@@ -25,5 +25,5 @@ console.log(str.slice(3, 8));
 //string replacing
 {
     let str = "hello";
-    console.log(str.replace("h", "m");)
+    console.log(str.replace("h", "m"));
 }
