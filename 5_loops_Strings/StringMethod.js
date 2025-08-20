@@ -21,3 +21,9 @@ console.log(str.slice(3, 8));
 
     console.log(str1.concat(str2));
 }
+
+//string replacing
+{
+    let str = "hello";
+    console.log(str.replace("h", "m");)
+}
