@@ -12,3 +12,7 @@ console.log(arr);
 //delete element
 arr.splice(3,1);
 console.log(arr);
+
+//replace element 
+arr.splice(5, 1, 5.5);
+console.log(arr);
