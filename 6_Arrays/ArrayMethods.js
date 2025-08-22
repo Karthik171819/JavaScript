@@ -19,3 +19,11 @@ let dc = ["superman", "batman"];
 let combine = marvel.concat(dc);
 
 console.log("concat array", combine);
+
+//unshift adding element at starting
+dc.unshift("new hero");
+console.log(dc);
+
+//shift delete at starting point of an array
+marvel.shift();
+console.log(marvel);
