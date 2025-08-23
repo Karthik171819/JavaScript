@@ -10,3 +10,11 @@ arr.forEach((val)=>{
         console.log(val);
     });
 }
+
+//using forEach callback
+const array = [0, 1, 2, 3];
+
+const square = (el) =>{
+    console.log(el * el);
+}
+array.forEach(square);
