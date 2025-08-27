@@ -3,6 +3,11 @@ h1{
     background-color:rgb(221, 196, 245);
 }
 
+button{
+    background-color: blue;
+    color: white;
+}
+
 body{
     background-color: aquamarine;
 }
