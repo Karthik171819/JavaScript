@@ -1,6 +1,13 @@
-h1{
+/* accessing by id */
+#heading{
     color:blue;
     background-color:rgb(221, 196, 245);
+}
+
+/* accessing by class name */
+.header{
+    color:red;
+    background-color: aqua;
 }
 
 button{
