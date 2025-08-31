@@ -1,0 +1,45 @@
+<!-- create 3div with common class name and add something using js -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+    <style>
+
+        .box{
+            width:300px;
+            height:100px;
+            background-color: blueviolet;
+            border: 1px solid black;
+            margin:5px;
+            text-align: center;
+            padding:2px;
+            border-radius: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="box">
+        First div
+    </div>
+
+    <div class="box">
+        second div
+    </div>
+
+    <div class="box">
+        Third div
+    </div>
+
+    <script>
+
+        var div = document.querySelectorAll(".box");
+        console.log(div);
+        div[0].innerText = "newly changed 1st div";
+        div[1].innerText = "newly changed 2nd div";
+        div[2].innerText = "newly changed 3rd div";
+    </script>
+</body>
+</html>
