@@ -1,0 +1,7 @@
+/* styling a div */
+#divbox{
+    width:100px;
+    height:150px;
+    background-color: aqua;
+    border: 1px solid black;
+}
