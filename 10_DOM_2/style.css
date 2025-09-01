@@ -1,0 +1,7 @@
+/* styling a div */
+#box{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    border: 1px solid black;
+}
