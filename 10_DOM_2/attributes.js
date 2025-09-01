@@ -11,3 +11,7 @@ console.log(name_att);
 //getting para class name
 let para = document.querySelector("p");
 console.log(para.getAttribute("class"));
+
+//setAttribute
+var set = document.querySelector("p");
+console.log(set.setAttribute("class", "Newclass"));
