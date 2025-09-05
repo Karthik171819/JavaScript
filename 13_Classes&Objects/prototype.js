@@ -12,3 +12,4 @@ const john = {
 };
 
 john.__proto__ = employe;
+
