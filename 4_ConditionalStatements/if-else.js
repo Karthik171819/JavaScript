@@ -1,5 +1,5 @@
 let mode = "light";
-let color;
+// let color;
 
 if(mode === "dark"){
     color="Black";
