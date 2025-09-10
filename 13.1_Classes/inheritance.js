@@ -2,6 +2,9 @@
 
 //parent class
 class Person {
+    constructor() {
+        this.species = "Homo phones";
+    }
     eat() {
         console.log("eating");
     }
@@ -35,11 +38,13 @@ let object = new Engineer();
 console.log(object);
 object.work();
 object.sleep();
+object.species;
 
 //creating objectn for doctor
 let doctorobj = new Doctor ();
 console.log(doctorobj);
 doctorobj.work();
 doctorobj.sleep();
+doctorobj.species;
 
 
