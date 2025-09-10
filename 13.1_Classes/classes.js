@@ -13,7 +13,7 @@ class Car {
     }
 }
 //object 1
-let fortuner = new Car();
+let fortuner = new Car();                                    
 fortuner.setBrand("fortuner");
 console.log(fortuner);
 fortuner.start();
