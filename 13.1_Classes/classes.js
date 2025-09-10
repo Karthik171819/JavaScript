@@ -8,7 +8,7 @@ class Car {
     }
 
     setBrand(brand) {
-        this.brandName = this.brand;
+        this.brand = brand; 
     }
 }
 let fortuner = new Car();
