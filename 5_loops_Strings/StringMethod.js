@@ -14,6 +14,8 @@ console.log(str,str.trim());
 //string slicing
 console.log(str.slice(3, 8));
 
+
+
 //string concatenate
 {
     let str1 = "KAR";

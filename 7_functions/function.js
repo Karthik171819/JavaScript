@@ -8,4 +8,4 @@ greeting();
 function para(str, n){
     console.log(str, n);
 }
-para("parameter", 5);
+para("parameter", 5); 

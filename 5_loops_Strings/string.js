@@ -16,7 +16,7 @@ console.log(typeof(literal));
 let obj = {
     item : "Laptop",
     price : 50000,
-}
+} 
 console.log(obj.item, obj.price); //it is a raw method
 let strinterpolation = `The cost of ${obj.item} is ${obj.price}`; //here price is not highlted it converts a whole string
 console.log(strinterpolation);
