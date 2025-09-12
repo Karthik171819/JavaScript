@@ -5,7 +5,7 @@ class User {
     }
 
     viewData(){
-        console.log("viewData");
+        console.log("Sucessfully viewing Data");
     }
 }
 
@@ -13,3 +13,6 @@ let userObj1 = new User("abc", "abc@gmail.com");
 let userObj2 = new User("def", "def@gmail.com");
 console.log(userObj1);
 console.log(userObj2);
+
+//viewing the website data
+userObj1.viewData();
