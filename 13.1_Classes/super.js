@@ -12,7 +12,7 @@ class Person {
 class Engineer extends Person {
     constructor(branch){
         console.log("entered child constructor");
-        super(); //invoke the parent constructor
+        super(); //invoke the parent class constructor
         console.log("exit child constructor");
         this.branch = branch;
     }
