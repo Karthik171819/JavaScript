@@ -7,5 +7,5 @@ const getPromise = () => {
 
 let promise = getPromise();
 promise.then((res) => {
-
+    console.log("promise fullfilled", res);
 });
