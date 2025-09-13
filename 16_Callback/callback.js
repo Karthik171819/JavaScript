@@ -9,3 +9,10 @@ function calc(a, b, sumCallback) {
 }
 
 calc(1, 2, sum); //you should give function name without parameter while callbacking
+
+//arrow function callback
+
+const hello = () => {
+    console.log("Hello im callbacked after 4second");
+}
+setTimeout(hello, 4000);
