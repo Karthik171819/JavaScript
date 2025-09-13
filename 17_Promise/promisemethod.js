@@ -5,3 +5,7 @@ const getPromise = () => {
     });
 };
 
+let promise = getPromise();
+promise.then((res) => {
+
+});
