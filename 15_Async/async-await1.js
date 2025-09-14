@@ -14,4 +14,6 @@ async function fetch(){
     await getdata(3);
 }
 
-console.log(getdata());
+console.log(getdata(1));
+console.log(getdata(2));
+console.log(getdata(3));
