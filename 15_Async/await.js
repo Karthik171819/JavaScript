@@ -12,4 +12,5 @@ console.log(api());
 
 async function weatherData(){
     await api();
+    await api(); //actually here 2times we get the data of api call after first execution of 2s
 };
