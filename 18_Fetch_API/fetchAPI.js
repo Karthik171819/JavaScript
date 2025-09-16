@@ -13,4 +13,16 @@ let getData = async () => {
     console.log(data);
 };
 
+//using promise method
+function getFacts() {
+    fetch(URL)
+    .then((response) => {
+        return response.json();
+    })
+    .then((data) => {
+        console.log(data);
+        
+    })
+}
+
 btn.addEventListener("click", getData);
