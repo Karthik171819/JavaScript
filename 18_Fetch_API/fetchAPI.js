@@ -1,4 +1,7 @@
 const URL = "https://api.thecatapi.com/v1/images/0XYvRd7oD";
 
-let promise = fetch(URL);
-console.log(promise);
+//lets call api using async- await function
+let getData = async () => {
+    let response = await fetch(URL);
+    console.log(response);
+};
